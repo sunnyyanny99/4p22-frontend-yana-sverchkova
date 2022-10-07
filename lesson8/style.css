@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    /* background-color: yellowgreen; */
+    border: 5px solid red;
+    /* solid dashed double groove ridge inset outset none hidden *
+
+    /* border-left: 1px solid red;
+    border-right: 7px solid green;
+    border-bottom: 4px solid purple; */
+
+    background-image: linear-gradient(#ff0000, #0000ff);
+    /* 45deg - задать угол наклона, потом цвета и процент перехода; запятые между цветами */
+    background-repeat: no-repeat;
+    border-radius: 5px 10px 15px 20px;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: lime;
+}
+
+.article-image {
+    float: left;
+    margin-right: 19px;
+}
