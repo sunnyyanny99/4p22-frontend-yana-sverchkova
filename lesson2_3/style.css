@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap:20px;
+    column-gap: 20px;
+}
+
+.image-container {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    opacity: 1;
+    box-shadow: 0px 0px 8px 7px rgba(0, 0, 0, 0.2);
+}
+
+.image {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* object-fit: contain (уместить в ширину контейнера), cover (вся площадь контейнера, сама обрезается как надо), fill (вся влезает и искажается)*/
+}   
+
+.image-caption {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: white;
+    border-radius: 5px 5px 0 0;
+    text-align: center;
+    font-family: 'Helvetica' serif;
+    font-size: 24px;
+    text-decoration: underline;
+    font-weight: 100;
+}
+
+.box {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    background-color: #ccc;
+    padding: 20px;
+    border: 10px solid red;
+    margin-top: 10px;
+}
+
+.inside-padding {
+    position: absolute;
+    left: 7px;
+    top: 7px;
+    width: calc(100%-14px);
+    height: calc(100%-14px);
+    border: 6px solid green;
+    margin: 10px;
+}
