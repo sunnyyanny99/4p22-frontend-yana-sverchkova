@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+}
+
+.body {
+    margin: 0;
+    min-height: 200vh;
+} 
+
+.header {
+    height: 80px;
+    background: lime;
+}
+
+/* .content {
+    min-height: calc(100vh - 480px);
+} */
+
+.footer {
+    margin-top: auto;
+    height: 400px;
+    background: black;
+}
+
+.element {
+    weight: 100px;
+    height: 100px;
+    background: red;
+    margin: 10px;
+}
+
+.container-green .element {
+    background: green;
+}
+
+.ellipse {
+    width: 100px;
+    height: 70px;
+    border-radius: 50%;
+    background: red;
+}
+
+.container-green .element,
+.container-green .ellipse {
+    background: green;
+}
+
+.image-container {
+    position: relative;
+    width: 300px;
+}
+
+.image-container img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.image-container h3 {
+    position: absolute;
+    bottom: 0;
+    color: white;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    background: red;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    background: red;
+    border-radius: 50%;
+}
+
+.square ~ .circle {
+    background: magenta;
+}
+
+.ellipse {
+    width: 150px;
+    height: 100px;
+    background: red;
+    border-radius: 50%;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    background: red;
+    border: 5px solid blue;
+}
+
+.square-1 {
+    position: relative;
+    left: 10px;
+    top: 15px;
+    right: 10px;
+    bottom: 10px;
+    background: red;
+}
+
+.square-2 {
+    position: absolute;
+    background: green;
+}
+
+.square-3 {
+    position: fixed;
+    background: purple;
+    left: 10px;
+    bottom: 0;
+    left: 0;
+}
+
+.square-4 {
+    position: sticky;
+    top: 10px;
+    background: orange;
+}
+
+.container-1 {
+    width: 500px;
+    height: 500px;
+    background: red;
+}
+
+.square {
+    width: 100px;
+    height:100px;
+}
+.square-7 {
+    position: absolute;
+    background: green;
+    z-index: 2;
+}
+
+.square-8 {
+    position: fixed;
+    background: blue;
+    z-index: 1;
+    left: 50%;
+    top: 50%;
+    transform: translate3d(-50%, -50%, 0);
+}
