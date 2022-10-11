@@ -1,0 +1,19 @@
+.common-section {
+    padding: 20px;
+    border: 2px solid grey;
+
+    &__heading {
+        color: red;
+    }
+
+    &__content {
+
+    }
+
+    &paragraph {
+        &_green {
+            
+        }
+    }
+
+}
