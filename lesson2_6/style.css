@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+
+}
+
+.container {
+    font-size: 30px;
+}
+
+.box {
+    width: 50vw;
+    height: 50vh;
+    background: red;
+}
+
+.box-2 {
+    width: 50%;
+    height: 200px;
+    background: lime;
+}
