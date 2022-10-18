@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.content {
+    display: flex;
+}
+
+.sidebar {
+    width: calc(400 / 1440 * 100vw);
+}
+
+.header {
+    height: 80px;
+    background: red;
+}
+
+.article {
+    padding: 0 40px;
+    width: auto;
+}
+
+.article__heading {
+    color: purple; 
+    font-size: 36px;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.article__section-paragraph {
+    font-size: 20px;
+}
+
+.footer {
+    height: 200px;
+    background: black;
+}
+
+@media screen and (max-width: 720px) {
+    .content {
+        display: block;
+    }
+
+    .sidebar {
+        width: 100%;
+        padding: 0 16px;
+    }
+
+    .article {
+        margin-top: 60px;
+        padding: 0 16px;
+    }
+
+    .article__section-paragraph {
+        font-size: 28px;
+    }
+}
+
+/*
+.box {
+    background: red;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 320px) and (max-width: 474px) {
+    width: 288px;
+    height: 288px;
+}
+
+@media screen and (min-width: 475px) and (max-width: 719px) {
+    width: 459px;
+    height: 459px;
+}
+
+@media screen and (min-width: 720px) and (max-width: 959px) {
+    width: 688px;
+    height: 688px;
+}
+
+@media screen and (min-width: 960px) and (max-width: 1023px) {
+    width: 928px;
+    height: 928px;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    width: 992px;
+    height: 992px;
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1139px) {
+    width: 1248px;
+    height: 1248px;
+}
+
+@media screen and (min-width: 1440px) {
+    width: 1408px;
+    height: 1408px;
+}
+*/
+
+
+/* 
+320px - 474px
+475px - 719px
+720px - 959px
+960px - 1023px
+1024px - 1279px
+1280px - 1139px
+1140px - 1599px
+1600px - 1919px
+1920px - 2559px
+2560px >
+*/
+
+/*
+Ходовые размеры
+< 719px
+720 - 1023px
+1024 - 1279px
+1280 - 1439px
+1440 - 1919px
+1920 - 2559px
+2560px >
+*/
