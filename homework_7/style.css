@@ -1,0 +1,155 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    background-color: #1B2473;
+}
+
+@media screen and (min-width: 769px) and (max-width: 1440px) {
+    .form {
+        flex-direction: column;
+        position: relative;
+    }
+
+    .form-box {
+        width: calc(600 / 1470 * 100vw);
+        border: none;
+        border-radius: 20px;
+        background-color: white;
+        margin-top: 83px;
+        margin-left: 412px;
+        padding: 26px 45px;
+    }
+
+    .form-box__authentification {
+        width: calc(510 / 1470 * 100vw);
+    }
+
+    .form__title {
+        font-family: "Roboto", sans-serif;
+        font-weight: bold;
+        font-size: 50px;
+        text-align: center;
+        color: #787878;
+        margin-bottom: 30px;
+    }
+
+    .form__label {
+        font-family: "Roboto", sans-serif;
+        font-weight: 2px bold;
+        font-size: 15px;
+        color: #787878;
+        font-weight: bold;
+    }
+
+    .form__input {
+        width: 100%;
+        height: 49px;
+        border: 2px solid;
+        border-color: #787878;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+    }
+
+    .form__checkbox1 {
+        border: 2px solid;
+        border-color: #787878;
+        border-radius: 10px;
+        margin: 0 auto;
+    }
+
+    .form__checkbox-label {
+        position: relative;
+        height: 16px;
+        font-family: "Roboto", sans-serif;
+        color: #787878;
+        font-size: 10px;
+    }
+
+    .button {
+        width: 180px;
+        height: 52px;
+        border: none;
+        border-radius: 10px;
+        background-color: #1A226B;
+        margin-left: 33%;
+        margin-top: 40px;
+        font-size: 25px;
+        color: white;
+        font-family: "Roboto", sans-serif;
+    }
+}
+
+@media screen and (min-width:320px) and (max-width:768px) {
+    .form {
+        flex-direction: column;
+        position: relative;
+    }
+
+    .form-box {
+        width: calc(728 / 768 * 100vw);
+        height: calc(450 / 768 * 100vh);
+        border: none;
+        border-radius: 20px;
+        background-color: white;
+        margin-top: 83px;
+        margin: 5px;
+        padding: 26px 45px;
+    }
+
+    .form-box__authentification {
+        width: calc(520 / 768 * 100vw);
+    }
+
+    .form__title {
+        font-family: "Roboto", sans-serif;
+        font-weight: bold;
+        font-size: 50px;
+        text-align: center;
+        color: #787878;
+        margin-bottom: 30px;
+    }
+
+    .form__input {
+        width: 100%;
+        height: 49px;
+        border: 2px solid;
+        border-color: #787878;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+    }
+
+    .form__checkbox1 {
+        border: 2px solid;
+        border-color: #787878;
+        border-radius: 10px;
+        margin: 0 auto;
+    }
+
+    .form__checkbox-label {
+        position: relative;
+        height: 16px;
+        font-family: "Roboto", sans-serif;
+        color: #787878;
+        font-size: 10px;
+    }
+
+    .button {
+        width: 180px;
+        height: 52px;
+        border: none;
+        border-radius: 10px;
+        background-color: #1A226B;
+        margin-left: 10%;
+        margin-top: 40px;
+        font-size: 25px;
+        color: white;
+        font-family: "Roboto", sans-serif;
+    }
+}
