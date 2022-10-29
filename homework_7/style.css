@@ -91,7 +91,6 @@ body {
     }
 
     .form-box {
-        width: calc(728 / 768 * 100vw);
         height: calc(450 / 768 * 100vh);
         border: none;
         border-radius: 20px;
