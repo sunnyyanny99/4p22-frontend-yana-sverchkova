@@ -22,7 +22,7 @@ alert(fib(5));*/
 }
 alert (fib(3)); */
 
-function fib(n) {
+/* function fib(n) {
     if (n <=1 ) {
         console.log(n)
     } else {
@@ -33,4 +33,26 @@ function fib(n) {
     return n >= 1 ? n : fib(n-1) + fib(n-2);
 }
 
-alert(fib(5));
+alert(fib(5)); */
+
+
+function makeFibonacciFunction() {
+    let a = 1;
+    let b = 1;
+    return function() {
+        let c = a + b;
+        console.log(a);
+        a = b;
+        b = c;
+    }
+}
+
+const fibonacci = makeFibonacciFunction();
+
+fibonacci();
+fibonacci();
+fibonacci();
+fibonacci();
+fibonacci();
+fibonacci();
+fibonacci();
